@@ -1,0 +1,13 @@
+python3 -m virtualenv env
+. env/bin/activate
+pip install django
+django-admin startproject learn_django
+python manage.py help
+python manage.py runserver
+python manage.py startapp myapp
+python manage.py migrate
+python manage.py createsuperusr
+python manage.py runserver
+
+
+
