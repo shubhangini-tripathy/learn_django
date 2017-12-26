@@ -8,10 +8,13 @@ urlpatterns = [
     # path('ashu/', views.shubhi, name='ashu')
     path('shubhi/', views.ShubhiPageView.as_view(), name='shubhi'),
     path('ashu/', views.AshuPageView.as_view(), name='ashu'),
-
-
-
-
-
-
+    path('about/', views.AboutPageView.as_view(), name='about'),
 ]
+
+
+
+
+
+
+
+

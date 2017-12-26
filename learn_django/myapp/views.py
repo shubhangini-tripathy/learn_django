@@ -21,4 +21,6 @@ class ShubhiPageView(TemplateView):
     template_name = 'shubhi.html'
 class AshuPageView(TemplateView):
     template_name = 'ashu.html'
+class AboutPageView(TemplateView):
+    template_name = 'about.html'
 
