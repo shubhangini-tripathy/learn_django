@@ -19,6 +19,7 @@ from myapp import views
 urlpatterns = [
     
     path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('myapp/', include('myapp.urls')),
     path('', include('blogs.urls')),
 ]
